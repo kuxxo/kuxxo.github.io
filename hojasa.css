@@ -1,0 +1,39 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin: 50px 0;
+  text-shadow: 2px 2px 4px #000;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 36px;
+  padding: 20px 50px;
+  background-color: #8b0000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #dc143c;
+}
+
+#tiempo, #mejor-tiempo {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px #000;
+}
